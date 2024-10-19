@@ -45,16 +45,20 @@ public class Penguin {
     @Column
     private Boolean villainous;
 
+    @Column
+    private String pictureUrl;
+
     public Penguin(int id) {
         this.id = id;
     }
 
-    public Penguin(String username, String firstAppearance, String mostRecentGiveaway, Boolean meetable, Boolean visitor, Boolean villainous) {
+    public Penguin(String username, String firstAppearance, String mostRecentGiveaway, Boolean meetable, Boolean visitor, Boolean villainous, String pictureUrl) {
         this.username = username;
         this.firstAppearance = firstAppearance;
         this.mostRecentGiveaway = mostRecentGiveaway;
         this.meetable = meetable;
         this.visitor = visitor;
         this.villainous = villainous;
+        this.pictureUrl = pictureUrl;
     }
 }

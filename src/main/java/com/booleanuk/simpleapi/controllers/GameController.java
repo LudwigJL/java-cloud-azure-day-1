@@ -3,7 +3,6 @@ package com.booleanuk.simpleapi.controllers;
 
 import com.booleanuk.simpleapi.Repositories.GameRepository;
 import com.booleanuk.simpleapi.models.Game;
-import com.booleanuk.simpleapi.models.Penguin;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,6 +11,7 @@ import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
+@CrossOrigin
 @RestController
 @RequestMapping("games")
 public class GameController {
