@@ -48,11 +48,14 @@ public class Penguin {
     @Column
     private String pictureUrl;
 
+    @Column
+    private String favoriteColor;
+
     public Penguin(int id) {
         this.id = id;
     }
 
-    public Penguin(String username, String firstAppearance, String mostRecentGiveaway, Boolean meetable, Boolean visitor, Boolean villainous, String pictureUrl) {
+    public Penguin(String username, String firstAppearance, String mostRecentGiveaway, Boolean meetable, Boolean visitor, Boolean villainous, String pictureUrl, String favoriteColor) {
         this.username = username;
         this.firstAppearance = firstAppearance;
         this.mostRecentGiveaway = mostRecentGiveaway;
@@ -60,5 +63,6 @@ public class Penguin {
         this.visitor = visitor;
         this.villainous = villainous;
         this.pictureUrl = pictureUrl;
+        this.favoriteColor = favoriteColor;
     }
 }
