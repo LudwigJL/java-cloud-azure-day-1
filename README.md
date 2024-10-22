@@ -44,4 +44,4 @@ We will be only using free tiers to create Azure items.
 
 - Use the [Microsoft Azurite Storage Emulator](https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azurite?tabs=visual-studio%2Cblob-storage)
 - Use the [Microsoft Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)
-- FYI this is a legacy product: [Microsoft Azure Storage Emulator](https://learn.microsoft.com/en-us/azure/storage/common/storage-use-emulator)
+- FYI this is a legacy product: [Microsoft Azure Storage Emulator](https://learn.microsoft.com/en-us/azure/storage/common/storage-use-emulator

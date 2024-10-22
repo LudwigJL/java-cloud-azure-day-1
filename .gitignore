@@ -39,3 +39,5 @@ out/
 .vscode/
 
 application.yml
+
+application.properties
